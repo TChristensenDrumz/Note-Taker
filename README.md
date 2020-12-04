@@ -22,7 +22,7 @@ All dependencies are included in the package.json file. Use "npm i" in your bash
 Refer to the tutorial link for usage.
 
 ## License
-This project is covered under the MIT License.
+This project is not covered under a license.
 
 ## Contributing
 No contributions are being accepted at this time.
