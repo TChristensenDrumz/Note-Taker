@@ -18,6 +18,10 @@ module.exports = function(app) {
             notes.push(newNote);
 
             res.json(newNote);
+
+            fs.writeFile(path.join(__dirname, "../db/db.json"), JSON.stringify(notes), function(err) {
+                if (err) throw err;
+            });
         });
 
         app.get("/api/notes/:id", function(req, res) {
@@ -36,6 +40,12 @@ module.exports = function(app) {
                     notes.splice(i, 1);
                 }
             }
+
+            res.json(notes);
+
+            fs.writeFile(path.join(__dirname, "../db/db.json"), JSON.stringify(notes), function(err) {
+                if (err) throw err;
+            });
         });
     });
 }
