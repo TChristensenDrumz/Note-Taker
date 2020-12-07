@@ -19,7 +19,7 @@ This is an application that can be used to write, save, and delete notes. This a
 All dependencies are included in the package.json file. Use "npm i" in your bash/terminal to download the node modules.
 
 ## Usage
-Refer to the tutorial link for usage.
+Refer to the tutorial link for usage. https://drive.google.com/file/d/1xiWGjfegnkNXHEg0zXHOozQ4UD-5A39N/view
 
 ## License
 This project is not covered under a license.
@@ -38,3 +38,4 @@ Email: tchristensendrumz@gmail.com
 GitHub: https://github.com/TChristensenDrumz
 
 ## Link
+https://young-journey-12971.herokuapp.com/
